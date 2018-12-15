@@ -8,7 +8,7 @@ weather = Weather(unit=Unit.CELSIUS)
 #print(condition.text)
 
 # Lookup via location name.
-
+#Mirsad
 location = weather.lookup_by_location('aarhus')
 condition = location.condition
 print(condition.text)
